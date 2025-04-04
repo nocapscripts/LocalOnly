@@ -1,5 +1,9 @@
 # Microsoft Account Setup Skip
 
+## Visit website
+
+[MAS_SKIP](https://nocapscripts.github.io/LocalOnly/)
+
 ## How to Use
 
 To run the script directly in PowerShell, use the following command:
@@ -17,7 +21,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://nocapscript
 ## Available Scripts
 - [local.ps1](https://nocapscripts.github.io/LocalOnly/local.ps1) - Runs `start ms-cxh:localonly`.
 
+
+
 ## Setup Instructions
 1. Clone this repository.
 2. Upload your PowerShell scripts.
 3. Enable GitHub Pages in repository settings.
+
+
