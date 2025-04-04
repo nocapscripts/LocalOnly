@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
 title: Microsoft Account Skip
 description: Hosting PowerShell scripts with style!
-include:
-  - assets
+
 
