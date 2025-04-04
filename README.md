@@ -2,7 +2,7 @@
 
 ## Visit website
 
-[MAS_SKIP](https://nocapscripts.github.io/LocalOnly/)
+[MASS_WEB](https://nocapscripts.github.io/LocalOnly/)
 
 ## How to Use
 
