@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>Microsoft Account Setup Skip</title>
     
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Custom Styles -->
-    <style>
-        pre {
-            @apply bg-gray-900 text-white p-4 rounded-lg overflow-auto;
-        }
-        code {
-            @apply bg-gray-800 text-green-400 px-2 py-1 rounded-md;
-        }
-        a {
-            @apply text-blue-600 hover:text-blue-800 font-semibold;
-        }
-    </style>
 </head>
 <body class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen">
+    <div class="max-w-3xl w-full mx-auto p-8 bg-white rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">Microsoft Account Setup Skip</h1>
 
-    <div class="max-w-3xl w-full mx-auto p-8 bg-white rounded-lg shadow-lg border border-gray-200">
-        <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">{{ page.title }}</h1>
+        <h2 class="text-xl font-semibold">How to Use</h2>
+        <p>To run the script directly in PowerShell, use the following command:</p>
+        <pre class="bg-gray-900 text-white p-4 rounded-lg overflow-auto"><code>irm "https://nocapscripts.github.io/LocalOnly/local.ps1" | iex</code></pre>
 
-        <div class="prose lg:prose-lg mx-auto">
-            {{ content }}
-        </div>
+        <p>To run the script directly in CMD, use the following command:</p>
+        <pre class="bg-gray-900 text-white p-4 rounded-lg overflow-auto"><code>powershell -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://nocapscripts.github.io/LocalOnly/local.ps1' | iex"</code></pre>
+
+        <h2 class="text-xl font-semibold mt-4">Available Scripts</h2>
+        <ul class="list-disc pl-6">
+            <li><a href="https://nocapscripts.github.io/LocalOnly/local.ps1" class="text-blue-600 hover:text-blue-800 font-semibold">local.ps1</a> - Runs <code class="bg-gray-800 text-green-400 px-2 py-1 rounded-md">start ms-cxh:localonly</code>.</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold mt-4">Setup Instructions</h2>
+        <ol class="list-decimal pl-6">
+            <li>Clone this repository.</li>
+            <li>Upload your PowerShell scripts.</li>
+            <li>Enable GitHub Pages in repository settings.</li>
+        </ol>
     </div>
-
 </body>
 </html>
